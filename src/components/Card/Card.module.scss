@@ -1,0 +1,60 @@
+.card{
+  position: relative;
+  border: 1px solid #f8e8f8;
+  padding: 20px;
+  width: 220px;
+  border-radius: 40px;
+  background-color: #fff;
+  transition: all .2s ease-in-out;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  &:hover{
+    box-shadow: 0 14px 35px rgba(0,0,0, .06);
+    transform: translateY(-8px);
+    // cursor: pointer;
+  }
+  .plus {
+    cursor: pointer;
+  }
+  .favorite{
+    position: absolute;
+    cursor: pointer;
+    right: 20px;
+    top: 20px;
+    img{
+      width: 24px;
+      height: 24px;
+      object-fit: cover;
+    }
+  }
+  p{
+    font-size: 13px;
+    font-weight: 500;
+  }
+  h5{
+    font-weight: 400;
+    font-size: 14px;
+  }
+  &-button{
+    background-color: rgb(222, 247, 4);
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .active{
+    background-color: rgb(10, 231, 10);
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
